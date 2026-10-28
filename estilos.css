@@ -1,0 +1,283 @@
+/*Ajustamos el fondo para que no se repita y que para al hacer zoom out el fondo no se mueva*/
+body{
+  background-image: url(./img/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*Añadimos una fuente de texto descargada*/
+@font-face {
+  font-family: HelvetiHand;
+  src:url("./font/HelvetiHand.ttf");
+}
+a{
+font-family: HelvetiHand, Arial, Helvetica, sans-serif;
+}
+p{
+  font-family: HelvetiHand, Arial, Helvetica, sans-serif;
+  }
+h5{
+  font-family: HelvetiHand, Arial, Helvetica, sans-serif;
+  }
+h1{
+  font-family: HelvetiHand, Arial, Helvetica, sans-serif;
+}
+/*Cambiamos el color del fondo de la barra de navegacion*/
+.navbar{
+  background-color: black;
+}
+/*Creacion de una transicion en el logo de la navbar*/
+#logo{
+  transition: transform .5s;
+}
+#logo:hover{
+  transform: scale(1.1);
+}
+/*Cambiamos el color del menu auxiliar del apartado de juegos*/
+.dropdown-menu{
+  background-color: black !important;
+}
+/*Cambiamos el color de las letras del menu auxiliar del apartado juegos*/
+.dropdown-item{
+  color: grey !important; 
+}
+/*Creamos animaciones en el menu auxiliar*/
+.dropdown-menu li a:hover{
+  color: white !important;
+  transition: ease-in-out 0.2s;
+  background: none;
+ }
+ .dropdown-menu li a:active{
+   background: none;
+ }
+/*Creamos una altura maxima para las fotos del carousel*/
+.carousel-item{
+    max-height: 55rem;
+}
+/*Ajuste de posicion de los videos*/
+#video1{
+  width:100%;
+  float:left;
+  text-align:center;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+#video2{
+  width:100%;
+  float:right;
+  text-align:center;
+  margin-right: 5%;
+  margin-bottom: 2%;
+
+}
+#video3{
+  width:100%;
+  float:right;
+  text-align:center;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.embed-responsive{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*Cambiamos el fondo de las tarjetas, añadimos un ancho maximo y ajustamos los margenes*/
+.card{
+  background-color: aliceblue !important;
+  max-width: 680px;
+}
+#card1{
+  margin: 0px;
+}
+#card2{
+  margin: 0px;
+}
+/*Animacion de las fotos de las plataformas donde se puede conseguir los videojuegos*/
+#ps5LiS1:hover{
+  transform: scale(1.1);
+}
+#ps5LiS1{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#ps4LiS1:hover{
+  transform: scale(1.1);
+}
+#ps4LiS1{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#xboxseriesxLiS1:hover{
+  transform: scale(1.1);
+}
+#xboxseriesxLiS1{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#xboxoneLiS1:hover{
+  transform: scale(1.1);
+}
+#xboxoneLiS1{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#pcLiS1:hover{
+  transform: scale(1.1);
+}
+#pcLiS1{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#ps4LiS2:hover{
+  transform: scale(1.1);
+}
+#ps4LiS2{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#xboxseriesxLiS2:hover{
+  transform: scale(1.1);
+}
+#xboxseriesxLiS2{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#xboxoneLiS2:hover{
+  transform: scale(1.1);
+}
+#xboxoneLiS2{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#pcLiS2:hover{
+  transform: scale(1.1);
+}
+#pcLiS2{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#ps5LiSTC:hover{
+  transform: scale(1.1);
+}
+#ps5LiSTC{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#ps4LiSTC:hover{
+  transform: scale(1.1);
+}
+#ps4LiSTC{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#xboxseriesxLiSTC:hover{
+  transform: scale(1.1);
+}
+#xboxseriesxLiSTC{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#xboxoneLiSTC:hover{
+  transform: scale(1.1);
+}
+#xboxoneLiSTC{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#pcLiSTC:hover{
+  transform: scale(1.1);
+}
+#pcLiSTC{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+#switchLiSTC:hover{
+  transform: scale(1.1);
+}
+#switchLiSTC{
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: transform .5s;
+}
+/*Creamos una division con un fondo*/
+#producto{
+  background-color: rgba(0, 0, 0, 0.623);
+}
+#divSquare{
+  background-color: rgba(0, 0, 0, 0.623);
+}
+#SobreSquare{
+  text-align: center;
+  color: rgb(223, 223, 223);
+}
+/*Alineamos el texto y le cambiamos el color*/
+#divisores {
+  text-align: center;
+  color: rgb(223, 223, 223);
+}
+/*Cambiamos el color del fondo del div para las redes sociales*/
+#divRedes{
+  background-color: black;
+}
+/*Cambiamos el fondo de las tarjetas donde se contendrán los logos de las redes sociales*/
+#divRedes .card{
+  background-color: black !important;
+}
+/*Centramos el texto y cambiamos su color*/
+#Redes{
+  text-align: center;
+  color: rgb(223, 223, 223);
+}
+/*Animaciones en las imagenes de los logos de las redes sociales*/
+#facebook:hover{
+  transform:scale(1.2);
+}
+#facebook{
+  transition: transform .5s;
+}
+#instagram:hover{
+  transform: scale(1.2);
+}
+#instagram{
+  border: 2.2px solid black;
+  transition: transform .5s
+}
+#tumblr:hover{
+  transform: scale(1.2);
+}
+#tumblr{
+  border: 2.2px solid black;
+  transition: transform .5s;
+}
+#yt:hover{
+  transform: scale(1.2);
+}
+#yt{
+  transition: transform .5s;
+}
+#twitter:hover{
+transform: scale(1.2);
+}
+#twitter{
+  transition: transform .5s;
+}
+#discord:hover{
+  transform: scale(1.2);
+}
+#discord{
+  transition: transform .5s;
+}
